@@ -1,0 +1,297 @@
+body{
+  font-family: sans-serif, Aileron;
+  background-color: #efefef;
+}
+
+img{
+  opacity: 0.8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.central{
+  background-color: #white;
+}
+
+h1 {
+  color: #000000;
+}
+
+div.order {
+  font-size: 0.8em;
+}
+
+td.suma {
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: #db7b37;
+}
+
+.navbar-inner {
+  background-image: -webkit-linear-gradient(top, #ffa500, #f9e9de);
+}
+
+.text_centered {
+  text-align: center;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.controls {
+  margin: 5px;
+}
+
+.dropdownlist {
+  width: 280px;
+}
+
+.btn-xxl{
+  width:100%;
+}
+
+.btn_cancel {
+  width: 100px;
+}
+
+.btn_save {
+  width: 180px;
+}
+
+.btn_srednji {
+  margin: 10px;
+  padding: 5px;
+  width: 300px;
+}
+
+.std {
+  margin: 5px;
+  padding: 5px;
+}
+
+.boi{
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 2px;
+}
+
+.maxheight50{
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.NE {
+  color: #ffa500;
+}
+
+.OK {
+  color: #0070ff;
+}
+
+.white {
+  background-color: white;
+}
+
+#boi_main{
+  background-color: #fefefe;
+  padding: 10px;
+  border-style: groove;
+}
+
+.bo_interface{
+  background-color: #ffaF19;
+  color: #dd894c;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.bo_small{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ffaF19;
+}
+
+.bo_finansije{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #white;
+}
+
+.bolder {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.orange {
+  color: #fea90d;
+}
+
+td.bo_small_data{
+  width: 100px;
+}
+
+div.so_interface_magacin{
+  background-color: white;
+  color: #dd894c;
+  margin: 2px;
+  padding: 2px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+div.so_interface{
+  background-color: white;
+  color: #dd894c;
+  margin: 2px;
+  padding: 2px;
+  border-style: solid;
+  border-width: 1px;
+  max-height: 50vh;
+  overflow: auto;
+}
+
+#naslov{
+  text-align: center;
+}
+
+.naslov{
+  border-style: inset;
+  border-radius: 5px;
+  background-color: #fad398;
+  color: #666666;
+  border-width: 1px;
+  text-align: center;
+}
+
+.istorija_datum{
+  margin:10px;
+  padding-left: 10px;
+  border-style: groove;
+  border-radius: 5px;
+  background-color: #fad398;
+  color: #666666;
+  border-width: 1px;
+  text-align: left;
+}
+
+#novi_big_order{
+  margin: 10px;
+  padding: 10px;
+  font-weight: bolder;
+  background-color: white;
+}
+
+#novi_big_order:hover {
+  background-color: orange;
+}
+
+div.inline {
+  float: left;
+  clear: both;
+}
+
+#konacna_cena{
+  font-size: 1.2em;
+  font-weight: bolder;
+  background-color: #dd894c;
+}
+
+#boi_detaljni_prikaz{
+  background-color:#ffaF19;
+  overflow: auto;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#tabela_artikl_orderi_detaljno {
+  overflow: auto;
+  font-size: 0.8em;
+}
+
+#table_novi_artikli_za_order{
+  font-size: 1.2em;
+}
+
+.pregled_input{
+  width: 20px;
+}
+
+button.pregled{
+  display: inline-block;
+  text-align: center;
+  float: right;
+  width: 200px;
+}
+
+
+div.nepregled {
+  margin: 5px;
+  padding: 2px;
+  color: #fea90d;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  max-width: 500px;
+  max-height:600px;
+  overflow: auto;
+}
+div.pregled {
+  margin: 5px;
+  padding: 2px;
+  color: #0070ff;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  max-width: 500px;
+  max-height:600px;
+  overflow: auto;
+}
+
+.btn_orange {
+  color: #fea90d;
+}
+.btn_blue {
+  color: #0070ff;
+}
+
+td.border_vis{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+td.td_aoid {
+  width: 30px;
+}
+
+td.td_pn {
+  width: 50px;
+}
+td.td_opis {
+  width: 450px;
+}
+td.td_kol {
+  width: 25px;
+}
+
+#io_boi{
+  text-align: right;
+}
+
+.sum_po_kupcu{
+  min-height: 160px;
+}
